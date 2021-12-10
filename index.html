@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Seattle Fire 911 Calls in November</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js"></script>
+  <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div id="map"></div>
+  <div id="console">
+    <h1>Seattle Fire 911 Calls</h1>
+    <p>
+      Data:
+      <a href="https://data.seattle.gov/Public-Safety/Seattle-Real-Time-Fire-911-Calls/kzjm-xkqj">Seattle Real Time Fire
+        911 Calls</a>
+      in Seattle, Nov 2021
+    </p>
+    <div class="session">
+      <h2>Incident Response Type</h2>
+      <div class="row">
+        <div>
+          <p><span style="background-color: #3e6f7d;" class="legend-key"></span>Aid Response (4048)</p>
+        </div>
+        <div>
+          <p><span style="background-color: #f821b6;" class="legend-key"></span>Medic Response (966)</p>
+        </div>
+        <div>
+          <p><span style="background-color: #f76091;" class="legend-key"></span>Transfer to AMR (693)</p>
+        </div>
+        <div>
+          <p><span style="background-color: #815755;" class="legend-key"></span>Auto Fire Alarm (555)</p>
+        </div>
+        <div>
+          <p><span style="background-color: #37830e;" class="legend-key"></span>Low Acuity Response (379)</p>
+        </div>
+        <div>
+          <p><span style="background-color: #26aab0;" class="legend-key"></span>Other (2064)</p>
+        </div>
+      </div>
+    </div>
+    <div class="session">
+      <h2>Hour: <label id="active-hour">12PM</label></h2>
+      <input id="slider" class="row" type="range" min="0" max="23" step="1" value="12" />
+    </div>
+    <div class="session">
+      <h2>Day of the week</h2>
+      <div class="row" id="filters">
+        <input id="all" type="radio" name="toggle" value="all" checked="checked" />
+        <label for="all">All</label>
+        <input id="weekday" type="radio" name="toggle" value="weekday" />
+        <label for="weekday">Weekday</label>
+        <input id="weekend" type="radio" name="toggle" value="weekend" />
+        <label for="weekend">Weekend</label>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
