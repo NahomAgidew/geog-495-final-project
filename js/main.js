@@ -32,7 +32,7 @@ async function geojsonFetch() {
         'circle-color': [
             'match',
             ['get', 'type'],
-            'Aid Response', '#3e6f7d',
+            'Aid Response', '#b3a632',
             'Medic Response',  '#f821b6',
             'Trans to AMR',  '#f76091',
             'Auto Fire Alarm',  '#815755',
