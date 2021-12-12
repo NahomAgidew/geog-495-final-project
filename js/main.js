@@ -36,7 +36,7 @@ async function geojsonFetch() {
             'Medic Response',  '#f821b6',
             'Trans to AMR',  '#f76091',
             'Auto Fire Alarm',  '#815755',
-            'Low Acuity Response',  '#37830e',
+            'Low Acuity Response',  '#5ae90e',
             /* other */ '#26aab0'
         ]
       },
