@@ -23,4 +23,4 @@ Finally, there are some features I wanted to include, but due to time constraint
 The primary and only data source for this project came from [City of Seattle Open Data](https://data.seattle.gov/Public-Safety/Seattle-Real-Time-Fire-911-Calls/kzjm-xkqj).
 
 ## Acknowledgment
-I would like to acknowledgment Professor Bo Zhao's work at the University of Washington. This project wouldn't have been possible without the lessons I learned in the GEOG 495 course. The codebase is heavily drawn from [Module 09](https://github.com/jakobzhao/geog495/tree/main/modules/module09) of the course.
+I would like to acknowledge Professor Bo Zhao's work at the University of Washington. This project wouldn't have been possible without the lessons I learned in the GEOG 495 course. The codebase is heavily drawn from [Module 09](https://github.com/jakobzhao/geog495/tree/main/modules/module09) of the course.
